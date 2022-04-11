@@ -23,7 +23,23 @@ public class Main {
         return result;
     }
 
+    // method to find the biggest palindromic product of two 3-digit integers
+    public static int biggestPalindrome() {
+        int ans = 0;
+
+        for (int i = 999; i > 99; i--) {
+            for (int j = i; j > 99; j--) {
+                int prod = i*j;
+                if (isPalindrome(prod)) {
+                    ans = Math.max(ans, prod);
+                }
+            }
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
-        System.out.println(isPalindrome(101001));
+        System.out.println(biggestPalindrome());
     }
 }
