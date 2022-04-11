@@ -1,3 +1,5 @@
+// solution adapted from Geeks for Geeks https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/
+
 public class Main {
     /*
     What is the largest prime factor of the number 600851475143?
@@ -35,7 +37,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Long n = 600851475143L;
+        long n = 600851475143L;
         biggestPrimeFactor(n);
     }
 
