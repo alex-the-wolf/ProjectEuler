@@ -2,8 +2,10 @@ public class Main {
     /*
     "Find the largest palindrome made from the product of two 3-digit numbers."
 
-    I will write a helper function to check if a number is a palindrome. It will have worst case of O(N/2) where N is
-    the number of digits. Then I will write a for loop that starts at 999 and goes to 100 that multiplies
+    I will write a helper function to check if a number is a palindrome. It will have worst case of O(N/2) where
+    N is the number of digits. Then I will write a for loop that starts at 999 and goes to 100 that checks the
+    product and keeps track of the greatest palindrome so far. No early exit but I may try to figure that our later
+
      */
 
     // method to check if a number is a palindrome
